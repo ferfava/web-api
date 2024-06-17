@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1000IA - Análisis de Sentimientos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="quienes-somos-link">Quiénes Somos</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <h1>Analiza el Sentimiento de tus Comentarios</h1>
+            <form id="sentiment-form">
+                <textarea id="text-input" placeholder="Escribe tu comentario aquí..."></textarea>
+                <button type="submit">Analizar Sentimiento</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+    <div id="quienes-somos" class="hidden">
+        <h2>Quiénes Somos</h2>
+        <p>Somos un grupo de mujeres apasionadas por la tecnología y que ahora descubrimos la Inteligencia Artificial. Nos dedicamos al análisis de datos y la inteligencia artificial, enfocados en proveer soluciones innovadoras para entender mejor las emociones de los usuarios.</p>
+        <button id="close-quienes-somos">Cerrar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
